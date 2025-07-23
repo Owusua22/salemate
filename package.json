@@ -5,10 +5,10 @@
   "main": "main.js",
   "author": "Sarah",
   "license": "ISC",
- "scripts": {
-  "start": "electron .",
-  "dist": "electron-builder"
-},
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
   "build": {
     "appId": "com.salesmate.admin",
     "productName": "SalesMate Admin",
@@ -23,9 +23,8 @@
       "icon": "assets/logo.ico"
     }
   },
-"devDependencies": {
-  "electron": "37.2.4",
-  "electron-builder": "24.6.0"
-}
-
+  "devDependencies": {
+    "electron": "^37.2.4",
+    "electron-builder": "24.6.0"
+  }
 }
